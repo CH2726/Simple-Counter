@@ -5,5 +5,23 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 export function Home() {
-	return <div class="p-3 mb-2 bg-secondary text-white"></div>;
+	return (
+		<div className="row">
+			<div className="p-3 bg-dark text-white">
+				<div className="">
+					<h1>0</h1>
+				</div>
+			</div>
+			<div className="p-3 bg-dark text-white">
+				<div className="">
+					<h1>0</h1>
+				</div>
+			</div>
+			<div className="p-3 bg-dark text-white">
+				<div className="">
+					<h1>0</h1>
+				</div>
+			</div>
+		</div>
+	);
 }
